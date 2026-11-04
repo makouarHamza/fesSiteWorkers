@@ -1,0 +1,147 @@
+
+.Fendk_header{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: 50px;
+    border-bottom: 2px solid lightgray;
+    position: sticky;
+    top: 70;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    margin-bottom: 60px;
+}
+.F_left_section{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: left;
+    padding-left: 4px;
+    align-items: center;
+    gap: 10px;
+}
+.div_Fendk_icon{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Fendk_icon{
+    height: 90%;
+    cursor: pointer;
+}
+
+.Section_title{
+    color: rgb(216, 144, 0);
+    white-space: nowrap;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.F_right_section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.More_store{
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #0057b7;
+    white-space: nowrap;
+}
+
+.section_body{
+    /* margin-top: 100px; */
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 1px green;
+}
+
+.Souk_section{
+   
+    /* padding: 12px;
+     */
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.Store_section{
+    /* background-color: lightblue; */
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+    margin-bottom: 12px;
+}
+.Traditional_maker_info{
+    padding-top: 22px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 4px;
+}
+
+.Maker_photoPicture{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.Maker_name{
+    color: #0057b7;
+    margin-left: 12px;
+    cursor: pointer;
+    
+}
+.Maker_name h3{
+    background-color: white;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 0;
+}
+.verfied_icon{
+    height: 20px;
+    width: 20px;
+    margin: 0;
+
+}
+svg{
+    height: 100%;
+    width: 100%;
+    
+}
+.verfied_icon:hover path{
+   
+    fill: #0057b7;
+
+}
+
+.verfied_icon:hover{
+    cursor: pointer;
+}
+.Maker_product{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    /* background-color: lightpink; */
+}
+.noProd{
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width:500px){
+    .F_right_section{
+        display: none;
+
+    }
+
+}
